@@ -3,27 +3,22 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Addstud from './component/Addstud';
+import Serach from './component/Serach';
+
 
 function App() {
   return (
-    
-<div className="container">
-    <div className="row">
-        <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-012">
+
+<>
+<Addstud/>
+<Serach/>
+</>
+ 
+
+ 
 
 
-            <div className="row g-3">
-                <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" className="form-label">University No</label>
-                    <input type="text" className="form-control"/>
-                </div>
-                <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <button className="btn btn-info">Search</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 
   );
